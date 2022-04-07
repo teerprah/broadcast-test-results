@@ -1,0 +1,45 @@
+{
+  "name": "broadcast-test-results",
+  "version": "0.0.50",
+  "description": "Publish test results to Microsoft Teams and Slack",
+  "main": "src/index.js",
+  "bin": {
+    "broadcast-test-results": "src/cli.js"
+  },
+  "files": [
+    "/src"
+  ],
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teerprah/broadcast-test-results.git"
+  },
+  "keywords": [
+    "test",
+    "results",
+    "publish",
+    "report",
+    "microsoft teams",
+    "teams",
+    "slack",
+    "junit"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/broadcast-test-results/issues"
+  },
+  "homepage": "https://github.com/broadcast-test-results/#readme",
+  "dependencies": {
+    "dotenv": "^14.3.0",
+    "phin-retry": "^1.0.3",
+    "sade": "^1.7.4",
+    "test-results-parser": "^0.0.10"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.1",
+    "pactum": "^3.0.21"
+  }
+}
